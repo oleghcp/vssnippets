@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>cpd</Title>
+			<Shortcut>cpd</Shortcut>
+			<Description>Code snippet for CustomPropertyDrawer attribute</Description>
+			<Author>Oleg Pulkin</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal Editable="false">
+					<ID>CustomPropertyDrawer</ID>
+					<Function>SimpleTypeName(global::UnityEditor.CustomPropertyDrawer)</Function>
+				</Literal>
+                  <Literal>
+					<ID>expression</ID>
+					<ToolTip>Expression to evaluate</ToolTip>
+					<Default>/*your type*/</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+                <![CDATA[CustomPropertyDrawer(typeof($expression$))$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
