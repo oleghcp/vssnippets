@@ -1,6 +1,6 @@
 # Snippets for Visual Studio
 
-Place snippet files to snippet folder in addition to existing ones.  
+Place snippet files to the snippet folder in addition to existing ones.  
 For example for vs 2022 it is:  
 `C:\Program Files\Microsoft Visual Studio\2022\Community\VC#\Snippets\1033\Visual C#\`
 
@@ -139,7 +139,7 @@ using UnityObject = UnityEngine.Object;
 
 ### MethodButtonsEditor
 
-Is used for `InspectorButtonAttribute` from https://github.com/oleghcp/UnityTools
+Used for `InspectorButtonAttribute` from https://github.com/oleghcp/UnityTools
 
 ![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/be.png)
 
