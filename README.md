@@ -10,10 +10,21 @@ For example for vs 2022 it is:
 
 ![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/mtod.png)
 
-```
+```csharp
 void MyMethod()
 {
     throw new System.NotImplementedException();
+}
+```
+
+### Deconstructor
+
+![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/dctor.png)
+
+```csharp
+public void Deconstruct()
+{
+
 }
 ```
 
@@ -68,6 +79,14 @@ Debug.Log();
 
 ```csharp
 [SerializeField]
+```
+
+### SerializeReference
+
+![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/sr.png)
+
+```csharp
+[SerializeReference]
 ```
 
 ### UnityObject
