@@ -148,7 +148,7 @@ using UnityObject = UnityEngine.Object;
 [CustomEditor(typeof(ExampleClass))]
 ```
 
-##  CustomPropertyDrawer
+### CustomPropertyDrawer
 
 ![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/cpd.png)
 
