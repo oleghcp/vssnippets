@@ -117,6 +117,16 @@ using UnityObject = UnityEngine.Object;
 #endif
 ```
 
+### rectTransform property
+
+![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/proprt.png)
+
+```csharp
+#pragma warning disable IDE1006
+    public RectTransform rectTransform => transform as RectTransform;
+#pragma warning restore IDE1006
+```
+
 ### OnValidate + Reset
 
 ![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/vld.png)
@@ -154,17 +164,4 @@ using UnityObject = UnityEngine.Object;
 
 ```csharp
 [CustomPropertyDrawer(typeof(CustomType))]
-```
-
-### MethodButtonsEditor
-
-Used for `InspectorButtonAttribute` from https://github.com/oleghcp/UnityTools
-
-![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/be.png)
-
-```csharp
-#if UNITY_EDITOR
-    [UnityEditor.CustomEditor(typeof(ExampleClass)), UnityEditor.CanEditMultipleObjects]
-    private class Editor : OlegHcpEditor.MethodButtonsEditor { }
-#endif
 ```

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>proprt</Title>
+			<Shortcut>proprt</Shortcut>
+			<Description>Code snippet for an automatically implemented rectTransform property</Description>
+			<Author>Oleg Pulkin</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="csharp">
+            <![CDATA[#pragma warning disable IDE1006
+            public RectTransform rectTransform => transform as RectTransform;
+#pragma warning restore IDE1006$end$$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
