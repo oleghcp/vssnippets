@@ -107,12 +107,12 @@ using UnityObject = UnityEngine.Object;
 #endif
 ```
 
-### #if UNITY_EDITOR || DEVELOPMENT_BUILD
+### #if UNITY_EDITOR || DEBUG
 
 ![](https://raw.githubusercontent.com/oleghcp/vssnippets/master/_images/ifdb.png)
 
 ```csharp
-#if UNITY_EDITOR || DEVELOPMENT_BUILD
+#if UNITY_EDITOR || DEBUG
 
 #endif
 ```
